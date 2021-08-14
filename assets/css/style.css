@@ -1,0 +1,109 @@
+@import "variables.css";
+@import "fonts.css";
+
+body {
+    background-color: var(--blue-very-dark);
+    font-size: var(--main-size);
+}
+
+.spc_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    height: 100vh; min-height: 100vh; max-height: 100vh;
+}
+
+.spc_container_box {
+    display: flex;
+    width: 1110px;
+    max-height: 446px;
+    min-height: 446px;
+    overflow: hidden;
+
+    background-color: var(--blue-dark-desaturated);
+}
+
+.spc_container_box_right {
+    background-image: url("../img/image-header-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.spc_container_box_left {
+    padding: 70px 92px 59px 70px ;
+}
+
+.spc_container_box_left_title {
+    font-size: var(--title-size);
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 44px;
+}
+
+.spc_container_box_left_title_word {
+    color: var(--purple-soft);
+}
+
+.spc_container_box_left_description {
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 25px;
+}
+
+.spc_container_box_left_stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+
+.spc_container_box_left_stats_item_digit {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 0px;
+
+}
+
+.spc_container_box_left_stats_item_title {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.6;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 640px) {
+    .spc_container_box {
+        flex-direction: column-reverse;
+        max-height: 780px;
+        min-height: 780px;
+    }
+
+    .spc_container_box_right {
+        min-height: 240px;
+        max-height: 240px;
+    }
+
+    .spc_container_box_left {
+        padding: 39px 31px 59px 32px ;
+    }
+
+    .spc_container_box_left_title {
+        text-align: center;
+    }
+
+    .spc_container_box_left_stats {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .spc_container_box_left_description {
+        text-align: center;
+    }
+}
+

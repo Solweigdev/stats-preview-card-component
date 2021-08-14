@@ -1,0 +1,10 @@
+:root {
+    /* COLORS */
+    --blue-very-dark: #0A0C1C;
+    --blue-dark-desaturated: #1B1937;
+    --purple-soft: #AB5CDB;
+
+    /* SIZE */
+    --main-size: 15px;
+    --title-size: 36px;
+}
