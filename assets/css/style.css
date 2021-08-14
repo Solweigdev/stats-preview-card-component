@@ -20,16 +20,17 @@ body {
     max-height: 446px;
     min-height: 446px;
     overflow: hidden;
+    border-radius: 15px;
 
     background-color: var(--blue-dark-desaturated);
 }
 
 .spc_container_box_right {
-    background-image: url("../img/image-header-desktop.jpg");
-    background-repeat: no-repeat;
+    background: linear-gradient(rgba(171, 92, 219, 1), rgba(171, 92, 219, 1)), url("../img/image-header-desktop.jpg") no-repeat;
     background-size: cover;
     width: 100%;
     height: auto;
+    background-blend-mode: hard-light;
 }
 
 .spc_container_box_left {
