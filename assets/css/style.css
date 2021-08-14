@@ -20,7 +20,7 @@ body {
     max-height: 446px;
     min-height: 446px;
     overflow: hidden;
-    border-radius: 15px;
+    border-radius: 8px;
 
     background-color: var(--blue-dark-desaturated);
 }
