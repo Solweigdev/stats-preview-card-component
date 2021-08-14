@@ -4,7 +4,6 @@
 body {
     background-color: var(--blue-very-dark);
     font-size: var(--main-size);
-    font-family: 'Inter', sans-serif;
 }
 
 .spc_container {
@@ -43,16 +42,19 @@ body {
     font-weight: bold;
     color: #FFFFFF;
     line-height: 44px;
+    font-family: 'Inter', sans-serif;
 }
 
 .spc_container_box_left_title_word {
     color: var(--purple-soft);
+    font-family: 'Inter', sans-serif;
 }
 
 .spc_container_box_left_description {
     font-weight: 400;
     color: #FFFFFF;
     line-height: 25px;
+    font-family: 'Inter', sans-serif;
 }
 
 .spc_container_box_left_stats {
